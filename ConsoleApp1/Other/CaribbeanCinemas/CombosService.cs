@@ -1,18 +1,18 @@
-﻿namespace ConsoleApp1.CaribbeanCinemas
+﻿namespace ConsoleApp1.Other.CaribbeanCinemas
 {
     public class CombosService
     {
         public List<short> combosPrice = new List<short>();
-        public List<String> combosInfo = new List<String>();
-        public List<int> selectionPrice  = new List<int>();
+        public List<string> combosInfo = new List<string>();
+        public List<int> selectionPrice = new List<int>();
         public List<int> selectionNumber = new List<int>();
         public List<int> selectionAmount = new List<int>();
 
         private int totalbill;
-        public int totalBill 
+        public int totalBill
         {
-            get { return totalbill; } 
-            set { totalbill = value; } 
+            get { return totalbill; }
+            set { totalbill = value; }
         }
         private int payamount;
         public int payAmount
@@ -25,7 +25,7 @@
         public void Menu()
         {
             if (languague.languagueChoosed.Contains("English"))
-            {    
+            {
                 Console.WriteLine("               Welcome to Caribbean Cinemas                ");
                 Console.WriteLine("-----------------------------------------------------------");
                 for (int i = 0; i < combosInfo.Count; i++)
@@ -33,7 +33,7 @@
             }
 
             else
-            {   
+            {
                 Console.WriteLine("              Bienvenido a Caribbean Cinemas               ");
                 Console.WriteLine("-----------------------------------------------------------");
                 for (int i = 0; i < combosInfo.Count; i++)
@@ -68,7 +68,7 @@
         }
         public void SetComboInfo()
         {
-            
+
             if (languague.languagueChoosed.Contains("English"))
             {
                 combosInfo.Add("Combo#1: Regular Popcorn, Regular soda ");
@@ -136,7 +136,7 @@
         public void SelectionList()
         {
             for (int i = 0; i < selectionNumber.Count; i++)
-            Console.WriteLine(combosInfo[(selectionNumber[i])] + " - " + + selectionPrice[i] + " - " + selectionAmount[i]);
+                Console.WriteLine(combosInfo[selectionNumber[i]] + " - " + +selectionPrice[i] + " - " + selectionAmount[i]);
         }
         public void PrintSelection()
         {
@@ -163,4 +163,4 @@
             }
         }
     }
-} 
+}

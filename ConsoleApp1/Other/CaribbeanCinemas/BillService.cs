@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.CaribbeanCinemas
+namespace ConsoleApp1.Other.CaribbeanCinemas
 {
     public class BillService
     {

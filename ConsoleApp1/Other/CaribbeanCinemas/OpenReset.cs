@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.CaribbeanCinemas
+namespace ConsoleApp1.Other.CaribbeanCinemas
 {
-    public  class OpenReset
+    public class OpenReset
     {
         LanguagueService languague = new LanguagueService();
-        public  void openProgram()
+        public void openProgram()
         {
             CaribbeanProgram Execute = new CaribbeanProgram();
             Execute.Main();
@@ -37,7 +37,7 @@ namespace ConsoleApp1.CaribbeanCinemas
                 OpenReset newBill = new OpenReset();
                 newBill.openProgram();
             }
-                
+
         }
     }
 }

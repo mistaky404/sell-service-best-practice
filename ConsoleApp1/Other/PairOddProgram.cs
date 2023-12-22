@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 using System.Timers;
 
 namespace ConsoleApp1.Other
-{
+{   
+    /*
     internal class PairOddProgram
     {
         public static void Main()
@@ -22,5 +23,5 @@ namespace ConsoleApp1.Other
                 Console.WriteLine("El numero digitado es Inpar");
             }
         }
-    }
+    } */
 }

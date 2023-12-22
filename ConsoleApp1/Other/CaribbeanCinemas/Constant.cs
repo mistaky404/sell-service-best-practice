@@ -6,7 +6,7 @@ using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.CaribbeanCinemas
+namespace ConsoleApp1.Other.CaribbeanCinemas
 {
 
     public class Constant
@@ -34,8 +34,8 @@ namespace ConsoleApp1.CaribbeanCinemas
 
 
     }
-    
+
 }
-    
-    
+
+
 

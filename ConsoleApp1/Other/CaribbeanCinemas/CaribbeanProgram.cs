@@ -5,7 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.CaribbeanCinemas
+namespace ConsoleApp1.Other.CaribbeanCinemas
 {
     public class CaribbeanProgram
     {
@@ -13,7 +13,7 @@ namespace ConsoleApp1.CaribbeanCinemas
         {
             LanguagueService languague = new LanguagueService();
             languague.Choose();
-         
+
             CombosService combo = new CombosService();
             combo.SetComboInfo();
             combo.SetComboPrice();

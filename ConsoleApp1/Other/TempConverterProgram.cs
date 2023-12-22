@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1.Other
-{
+{ /*
     internal class TempConverterProgram
     {
         public static void Main()
@@ -22,5 +22,5 @@ namespace ConsoleApp1.Other
             //Decimal celcius = (farenheit - 32) * 5 / 9;
             //Console.WriteLine(farenheit + " grados farenheit es igual a " + celcius + " grados celcius ");
         }
-    }
+    } */
 }

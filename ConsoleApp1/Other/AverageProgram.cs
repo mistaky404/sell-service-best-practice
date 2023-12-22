@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Other
 {
+    /*
     public class AverageProgram
     {
         public static void Main()
@@ -47,5 +48,5 @@ namespace ConsoleApp1.Other
             }
         }
 
-    }
+    } */
 }

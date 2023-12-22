@@ -1,18 +1,20 @@
-﻿namespace ConsoleApp1.CaribbeanCinemas
+﻿namespace ConsoleApp1.Other.CaribbeanCinemas
 {
     public class LanguagueService
     {
         private string languaguechoosed;
-        public string languagueChoosed 
+        public string languagueChoosed
 
-        { get { return languaguechoosed; }
-          set { languaguechoosed = value; }
+        {
+            get { return languaguechoosed; }
+            set { languaguechoosed = value; }
         }
 
-        
+
         public string Choose()
-        {   LanguagueService languague = new LanguagueService();
-            
+        {
+            LanguagueService languague = new LanguagueService();
+
             Console.WriteLine("-----------------------------------------------------------");
             Console.WriteLine("     Choose Languague  ( 1 for English - 2 para Español)   ");
             Console.WriteLine("-----------------------------------------------------------");

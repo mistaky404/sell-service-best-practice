@@ -1,5 +1,5 @@
 ﻿using ConsoleApp1;
-using ConsoleApp1.CaribbeanCinemas;
+using ConsoleApp1.Other.CaribbeanCinemas;
 
 //AverageProgram.Main();
 //TempConverterProgram.Main();
