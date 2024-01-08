@@ -18,7 +18,7 @@ namespace ConsoleApp1.Business
 
             int confirmation;
             Console.WriteLine("-----------------------------------------------------------");
-            if (languague.languagueChoosed.Contains("English"))
+            if (1 == 1)
             {
                 Console.WriteLine("                  Want To Add A Selection?                 ");
                 Console.WriteLine("                  ( 1 for Yes - 2 for No)                  ");
@@ -48,7 +48,7 @@ namespace ConsoleApp1.Business
             CombosService Bill = new CombosService();
             Bill.PrintSelection();
 
-            if (languague.languagueChoosed.Contains("English"))
+            if ("English" == "English")
             {
                 Console.WriteLine("                      Insert Pay Amount                    ");
                 Console.WriteLine("-----------------------------------------------------------");

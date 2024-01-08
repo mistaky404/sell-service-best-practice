@@ -26,7 +26,7 @@ namespace ConsoleApp1.Business
             int twoBillUsage = 0;
             int oneBillUsage = 0;
 
-            if (combo.payAmount >= combo.totalBill && languague.languagueChoosed.Contains("USD"))
+            if ("USD" == "USD")
             {
                 int cashReturn = combo.payAmount - combo.totalBill;
                 while (cashReturn > 0)
@@ -76,7 +76,7 @@ namespace ConsoleApp1.Business
                 Console.WriteLine("2  => " + twoBillUsage);
                 Console.WriteLine("1  => " + oneBillUsage);
             }
-            else if (combo.payAmount >= combo.totalBill && languague.languagueChoosed.Contains("RD"))
+            else if ("RD" == "RD")
             {
                 int cashReturn = combo.payAmount - combo.totalBill;
                 while (cashReturn > 0)
@@ -146,7 +146,7 @@ namespace ConsoleApp1.Business
         }
         public void returnBreakdown()
         {
-            if (languague.languagueChoosed.Contains("English"))
+            if ("English" == "English")
             {
                 Console.WriteLine("                     Return Breakdown                      ");
                 Console.WriteLine("-----------------------------------------------------------");

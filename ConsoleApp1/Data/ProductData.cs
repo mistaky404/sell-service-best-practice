@@ -18,9 +18,9 @@ namespace ConsoleApp1.Data
 
         public List<ProductModel> GetAll()
         {
-            _products.Add(new ProductModel { NameEnglish = "PopCorn", NameSpanish = "Palomitas", PriceUSD = 10, PriceRD = 100});
-            _products.Add(new ProductModel { NameEnglish = "Nachos", NameSpanish = "Nachos", PriceUSD = 15, PriceRD = 150});
-            _products.Add(new ProductModel { NameEnglish = "Soda", NameSpanish = "Soda", PriceUSD = 5, PriceRD = 50 });
+            _products.Add(new ProductModel { Name = "PopCorn", Price = 5});
+            _products.Add(new ProductModel { Name = "Nachos", Price = 8});
+            _products.Add(new ProductModel { Name = "Soda", Price = 2 });
             return _products;
         }
     }

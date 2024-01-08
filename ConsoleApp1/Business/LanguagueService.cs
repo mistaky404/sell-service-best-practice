@@ -3,44 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleApp1.View;
+using ConsoleApp1.Data;
+using ConsoleApp1.Models;
+using System.Diagnostics.SymbolStore;
 
 namespace ConsoleApp1.Business
 {
     public class LanguagueService
     {
-        private string languaguechoosed;
-        public string languagueChoosed
-
+        private readonly LanguagueData _languagueData;
+        public LanguagueService()
         {
-            get { return languaguechoosed; }
-            set { languaguechoosed = value; }
+            _languagueData = new LanguagueData();
         }
-        public string Choose()
+        public List<LanguagueModel> GetAll() 
         {
-            LanguagueService languague = new LanguagueService();
-
-            Console.WriteLine("-----------------------------------------------------------");
-            Console.WriteLine("     Choose Languague  ( 1 for English - 2 para Español)   ");
-            Console.WriteLine("-----------------------------------------------------------");
-            int chooseLanguague = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("-----------------------------------------------------------");
-            switch (chooseLanguague)
-            {
-                case 1:
-                    languague.languagueChoosed = "English";
-                    break;
-
-                case 2:
-                    languague.languagueChoosed = "Spanish";
-                    break;
-
-                default:
-                    Console.WriteLine(" Invalid Selection ");
-                    break;
-            }
-
-            return languagueChoosed;
-
+            return _languagueData.GetAll();
         }
     }
 }
